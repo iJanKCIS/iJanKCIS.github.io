@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evidence — Learner Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="mobile-topbar">
+  <span class="brand">learner.log</span>
+</div>
+<div class="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="course-log.html">Course log</a>
+  <a href="reflection-journal.html">Reflection journal</a>
+  <a href="learner-bio.html">Learner bio</a>
+  <a href="evidence.html" class="active">Evidence</a>
+</div>
+
+<div class="shell">
+  <aside class="sidebar">
+    <div>
+      <a href="index.html" class="brand">learner.log</a>
+      <div class="brand-sub">grade 10 · school year</div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="course-log.html">Course log</a>
+        <a href="reflection-journal.html">Reflection journal</a>
+        <a href="learner-bio.html">Learner bio</a>
+        <a href="evidence.html" class="active">Evidence</a>
+      </nav>
+    </div>
+    <div class="sidebar-footer">updated: 2026-09-15</div>
+  </aside>
+
+  <main class="main">
+    <div class="content" style="max-width: 780px;">
+      <span class="tag">evidence</span>
+      <h1>Evidence</h1>
+      <p class="lede">Certificates, screenshots, and final project proof, added once each course wraps up.</p>
+
+      <hr class="rule">
+
+      <div class="evidence-grid">
+        <!-- EDIT: duplicate an .evidence-card block per item. Replace the <img> src with your
+             actual file once it's in the images/ folder (e.g. images/certificate-english10.png).
+             Keep the icon label as PDF / IMG / LINK depending on the file type. -->
+
+        <div class="evidence-card">
+          <div class="evidence-icon">PDF</div>
+          <h3>[Course] — completion certificate</h3>
+          <p>Added [date]. [One line on what this proves.]</p>
+        </div>
+
+        <div class="evidence-card">
+          <div class="evidence-icon">IMG</div>
+          <h3>[Course] — final project screenshot</h3>
+          <p>Added [date]. [One line describing the project.]</p>
+        </div>
+
+        <div class="evidence-card">
+          <div class="evidence-icon">LINK</div>
+          <h3>[Course] — published project</h3>
+          <p>Added [date]. <a href="#">[link to the live project]</a></p>
+        </div>
+
+      </div>
+
+      <div class="placeholder-note" style="margin-top: 24px;">
+        To add a real file: put it in an <span class="mono">images/</span> or <span class="mono">files/</span> folder
+        in your repo, then replace a card's text with an <span class="mono">&lt;img&gt;</span> tag or a link pointing to it.
+      </div>
+    </div>
+  </main>
+</div>
+
+</body>
+</html>
