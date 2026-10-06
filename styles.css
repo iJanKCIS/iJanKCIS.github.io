@@ -151,7 +151,11 @@ p.lede { color: var(--muted); font-size: 1.05rem; }
 
 .mobile-topbar { display: none; }
 
-
+@media (max-width: 860px) {
+  .shell { flex-direction: column; }
+  .sidebar {
+    display: none;
+  }
   .mobile-topbar {
     display: flex;
     align-items: center;
